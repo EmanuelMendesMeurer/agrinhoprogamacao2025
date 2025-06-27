@@ -1,0 +1,68 @@
+/* Estilos Gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+button.option {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 15px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.option:hover {
+  background-color: #45a049;
+}
+
+.feedback {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  display: none;
+}
+
+.feedback.correct {
+  color: green;
+}
+
+.feedback.incorrect {
+  color: red;
+}
+
+.score-container {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
